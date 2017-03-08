@@ -58,6 +58,7 @@ class Inventory extends React.Component {
           type="text"
           value={fish.image}
         />
+        <button onClick={() => this.props.removeFish(key)}>Remove Fish</button>
       </div>
     )
   }
