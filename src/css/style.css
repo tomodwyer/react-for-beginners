@@ -1,5 +1,5 @@
 .order-wrap {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .order-enter {
   -webkit-transition: all 0.25s;
